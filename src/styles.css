@@ -40,9 +40,11 @@ body{
     background-color: rgba(255, 255, 255, .75);
 }
 
-.calculator-grid > button:hover,
-.calculator-grid > button:focus{
+.calculator-grid > button:hover{
     background-color: rgba(255, 255, 255, .9);
+}
+.calculator-grid > button:active{
+    background-color: #12b0ff;
 }
 
 .output .previous-operand{
